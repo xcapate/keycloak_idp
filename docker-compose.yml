@@ -1,0 +1,6 @@
+version: '2'
+services:
+  wso2is-server:
+    image: jboss/keycloak:latest
+    ports:
+      - 8080:8080
